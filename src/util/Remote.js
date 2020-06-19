@@ -1,10 +1,4 @@
 /* eslint-disable no-unused-expressions */
-/**
- * @Description: 定义远程访问组件
- * @author wangfajing
- * @date 2019/4/11
-*/
-
 import Axios from 'axios';
 import _forEach from 'lodash.foreach';
 import _isEmpty from 'lodash.isempty';
@@ -115,11 +109,6 @@ class Remote {
         POST: 'POST',
     };
 
-    /**
-     * @Description: 打开传进来的域名，并附带相应参数，主要涉及到导出业务
-     * @author wangfajing
-     * @date 2019-05-13
-    */
     open = (url, data) => {
         let sendURL = `${this.genDomainForEnv('default')}${url}`;
         const dealData = {};
@@ -133,11 +122,6 @@ class Remote {
         window.open(encodeURI(sendURL));
     };
 
-    /**
-     * @Description: 打开传进来的域名，并附带相应参数，主要涉及到导出业务
-     * @author wangfajing
-     * @date 2019-05-13
-    */
     openGet = (url, data) => {
         let sendURL = `${this.genDomainForEnv('default')}${url}`;
         sendURL += this.genQuery(data);

@@ -1,10 +1,3 @@
-/* eslint-disable react/prop-types */
-/**
- * @Description: 定义路由组件
- * @author 王发靖 Fajing.Wang@b-and-qchina.com
- * @date 2019/2/18
-*/
-
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Loadable from 'react-loadable';

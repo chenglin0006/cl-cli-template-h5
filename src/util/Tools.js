@@ -9,10 +9,10 @@ import BMap  from 'BMap';
 
 const ENV = process.env.CURRENT_ENV || 'production';
 var wxConfigObj = {
-    title: '百安居首届全国在线家博会',
-    desc: '即日起至3月31日，家装、建材海量优惠豪礼等你来抢',
+    title: 'demo',
+    desc: 'demo',
     url: Config[ENV].pageUrl+'/index',
-    imgUrl: 'https://res1.bnq.com.cn/9d2d4465-3e78-474e-8e60-0c1ee2c064e3?t=1584069032850',
+    imgUrl: 'demo',
 };
 
 export default class Tools {
@@ -234,10 +234,10 @@ export default class Tools {
                             };
                         } else if(fromIndex === 'huanbao'){
                             wxConfigObj = {
-                                title: '定装修就选百安居',
-                                desc: '百安居全案设计新系统 ——环保家装 尽享优惠 立刻扫码报名！',
+                                title: 'demo',
+                                desc: 'demo',
                                 url: Config[ENV].pageUrl+'/huanbao',
-                                imgUrl: 'http://storage.bthome.com/activity/jiabohui/fenxiang.png',
+                                imgUrl: 'demo',
                             };
                         }
                         //分享朋友圈

@@ -1,8 +1,3 @@
-/**
- * @Description: 树形结构操作工具
- * @author kokoqq130
- * @date 2019/2/19
-*/
 export default class TreeIterator {
     /**
      *  遍历整个树形结构，无返回

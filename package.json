@@ -9,7 +9,7 @@
     "dev": "rm -rf ./public/*.css &&  rm -rf ./public/scripts && rm -rf ./public/index.html && webpack --config ./build/webpack.prodDev.config.js",
     "prod": "rm -rf ./public/*.css &&  rm -rf ./public/scripts && rm -rf ./public/index.html && webpack --config ./build/webpack.prod.config.js"
   },
-  "author": "wangyuegyq",
+  "author": "demo",
   "license": "ISC",
   "private": true,
   "devDependencies": {
