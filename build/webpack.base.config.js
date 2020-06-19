@@ -54,7 +54,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: '百安居',
+            title: 'DEMO',
             inject: true,
             template: 'index.template.html',
         }),
