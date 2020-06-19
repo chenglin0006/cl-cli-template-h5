@@ -1,0 +1,277 @@
+.end-div{
+    background-image: linear-gradient(180deg, #E7E7E7 0%, #A4A4A4 100%);
+    box-shadow: 0 0.03rem 0.06rem 0.02rem rgba(0,0,0,0.30);
+    border-radius: 0.40rem;
+    border-radius: 0.40rem;
+    margin: 0 0.3rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.4rem;
+    color: #666666;
+    text-align: center;
+    line-height: 0.40rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+}
+.choose-city{
+    position: absolute;
+    left: 0.24rem;
+    top: 0.26rem;
+    width:1.3rem;
+    height: 0.45rem;
+    line-height: 0.45rem;
+    opacity: 0.8;
+    background: #FFFFFF;
+    border-radius: 0.225rem;
+    border-radius: 0.225rem;
+    text-align: center;
+    font-family: PingFangSC-Medium;
+    font-size: 0.28rem;
+    color: #333333;
+    letter-spacing: 0;
+    z-index: 11;
+    img{
+        width:0.14rem;
+        height: 0.1rem;
+        margin-left: 0.13rem;
+        position: relative;
+        top: -0.02rem;
+    }
+}
+
+.qingming-page{
+    background:rgb(255, 187, 4);
+    padding-bottom: 0.30rem;
+    position: relative;
+    &.end{
+        height:100vh;
+        padding-top: 5rem;
+    }
+    a{
+        text-decoration: none;
+    }
+    .join-div{
+        text-align: center;
+        margin-top: -11.4rem;
+        position: relative;
+        z-index: 1;
+        .go-btn{
+            width:6.9rem;
+            text-align: center;
+            margin: auto;
+            background-image: linear-gradient(180deg, #FF4A71 0%, #E00030 100%);
+            box-shadow: 0 3px 6px 2px rgba(0,0,0,0.30);
+            border-radius: 0.4rem;
+            border-radius: 0.4rem;
+            height: 0.8rem;
+            line-height: 0.8rem;
+            font-family: PingFangSC-Semibold;
+            font-size: 0.40rem;
+            color: #ffffff;
+            letter-spacing: 3px;
+            text-align: center;
+            margin-bottom: 0.3rem;
+            img{
+                width:0.16rem;
+                height: 0.28rem;
+                margin-left: 0.1rem;
+            }
+        }
+        .number-div{
+            display: inline-block;
+            margin-right: 0.32rem;
+            margin-bottom: 0.45rem;
+            .number-desc{
+                font-family: PingFangSC-Semibold;
+                color: #FFD581;
+                line-height: 0.24rem;
+                margin-bottom: 0.104rem;
+                font-family: PingFangSC-Semibold;
+                font-size: 0.192rem;
+                color: #000089;
+                line-height: 0.192rem;
+            }
+            .number{
+                background: #000089;
+                border: 0 solid #880307;
+                border-radius: 1.6px;
+                border-radius: 1.6px;
+                width:1.5rem;
+                line-height: 0.43rem;
+                font-family: PingFangSC-Semibold;
+                font-size: 0.336rem;
+                color: #FFEBD2;
+            }
+        }
+    }
+
+    .imgs-div{
+        padding: 0 0.36rem 0 0.38rem;
+        img{
+            display: block;
+            width: 100%;
+        }
+        .hot-area{
+            position: relative;
+            .jia-zhuang-coupon{
+                width: 3.3rem;
+                position: absolute;
+                right: 0.25rem;
+                top: 0.28rem;
+            }
+        }
+        .jian-cai{
+            margin-bottom: 0.24rem;
+        }
+        .jia-zhuang{
+            margin-bottom: 0.58rem;
+        }
+        .gift{
+            margin-bottom: 0.51rem;
+        }
+        .bao-kuan{
+            margin-bottom: 0.13rem;
+        }
+    }
+
+    .sku-content{
+        border-radius: 0.12rem;
+        padding: 0 0.29rem;
+        .sku-more-div{
+            padding: 0.2rem 0 0.14rem 0;
+            text-align: center;
+            background: #ffffff;
+            border-bottom-left-radius: 0.12rem;
+            border-bottom-right-radius: 0.12rem;
+            .text{
+                font-family: PingFangSC-Semibold;
+                font-size: 0.32rem;
+                color: #333333;
+                text-align: center;
+                line-height: 0.45rem;
+                height: 0.45rem;
+                margin-bottom: 0.06rem;
+            }
+            img{
+                width:0.26rem;
+                display: block;
+                margin: auto;
+            }
+        }
+    }
+
+    .sku-list-div{
+        background: #FFFFFF;
+        border-top-left-radius: 0.12rem;
+        border-top-right-radius: 0.12rem;
+        padding-top: 0.1rem;
+        &.no-more{
+            border-radius: 0.12rem;
+            .hot-item{
+                &:last-child{
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+
+    .hot-item{
+        text-align: left;
+        display: flex;
+        box-shadow: 0 1px 0 0 #EEEEEE;
+        padding-bottom: 0.328rem;
+        padding-top: 0.27rem;
+        padding-left: 0.217rem;
+        position: relative;
+        &:last-child{
+            // box-shadow: none;
+        }
+        .img-div{
+            width:2.11rem;
+            height:2.11rem;
+            margin-right: 0.236rem;
+            border-radius: 0.16rem;
+            position: relative;
+            img{
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: 0;
+            }
+        }
+        .hot-content{
+            flex:1;
+            position: relative;
+            .name{
+                font-family: PingFangSC-Semibold;
+                font-size: 0.32rem;
+                color: #333333;
+                letter-spacing: 0;
+                line-height: 0.36rem;
+            }
+            .price{
+                position: absolute;
+                bottom: 0.19rem;
+            }
+            .now{
+                font-family: 'SFUIText-Bold';
+                font-size: 0.36rem;
+                color: #CA2927;
+                letter-spacing: 0;
+                line-height: 0.38rem;
+                height: 0.38rem;
+                margin-right: 0.08rem;
+                .unit{
+                    font-family: PingFangSC-Medium;
+                    font-size: 0.26rem;
+                    color: #FF0000;
+                    letter-spacing: 0;
+                    line-height: 0.26rem;
+                }
+            }
+            .before{
+                font-family: SFUIDisplay-Regular;
+                font-size: 0.24rem;
+                color: #999999;
+                text-align: left;
+                line-height: 0.29rem;
+                height: 0.29rem;
+                text-decoration: line-through;
+            }
+        }
+        .go-btn{
+            position: absolute;
+            right: 0.25rem;
+            bottom: 0.306rem;
+            img{
+                width: 2.02rem;
+                display: block;
+            }
+        }
+    }
+
+    .desc-div{
+        font-family: PingFangSC-Regular;
+        font-size: 0.20rem;
+        color: #FFFFFF;
+        text-align: right;
+        margin-top: 0.1rem;
+        margin-bottom: 0.58rem;
+        padding-right: 0.3rem;
+    }
+
+    .more-div{
+        padding: 0 0.3rem;
+        img{
+            width: 100%;
+        }
+        &.dp-margin{
+            margin-top: 0.42rem;
+        }
+    }
+}
+.head-div{
+    img{
+        width:100%;
+    }
+}

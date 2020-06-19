@@ -1,0 +1,14 @@
+node_modules/
+npm-debug.log
+public/app.*.css
+public/scripts
+public/img
+public/index.html
+public/*.js
+public/*.map
+.idea
+yarn-error.log
+/src/app/.DS_Store
+/src/.DS_Store
+/.DS_Store
+/src/app/Welcome/images/.DS_Store

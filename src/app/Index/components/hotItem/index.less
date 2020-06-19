@@ -1,0 +1,76 @@
+.hot-item{
+    text-align: left;
+    display: flex;
+    border-bottom: 1px solid #CDCDCD;
+    padding-bottom: 0.31rem;
+    padding-top: 0.29rem;
+    position: relative;
+    &:last-child{
+        border-bottom: none;
+    }
+    .img-div{
+        width:2.2rem;
+        height:2.2rem;
+        margin-right: 0.24rem;
+        border-radius: 0.16rem;
+        position: relative;
+        img{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+        }
+    }
+    .hot-content{
+        flex:1;
+        .name{
+            font-family: PingFangSC-Medium;
+            font-size: 0.30rem;
+            color: #333333;
+            letter-spacing: 0;
+            line-height: 0.36rem;
+            margin-bottom: 0.75rem;
+            padding-top: 0.2rem;
+            word-break: break-all;
+        }
+        .now{
+            font-family: PingFangSC-Medium;
+            font-size: 0.36rem;
+            color: #FF0000;
+            letter-spacing: 0;
+            margin-right: 0.08rem;
+            .unit{
+                font-family: PingFangSC-Medium;
+                font-size: 0.26rem;
+                color: #FF0000;
+                letter-spacing: 0;
+                line-height: 0.26rem;
+            }
+        }
+        .before{
+            font-family: PingFangSC-Regular;
+            font-size: 0.28rem;
+            color: #888888;
+            text-align: right;
+            line-height: 0.26rem;
+            text-decoration: line-through;
+        }
+    }
+    .go-btn{
+        position: absolute;
+        right: 0;
+        bottom: 0.305rem;
+        background-image: linear-gradient(270deg, #FFA650 0%, #FA7B00 100%);
+        border-radius: 0.10rem;
+        border-radius: 0.10rem;
+        width: 1.4rem;
+        line-height: 0.72rem;
+        height: 0.72rem;
+        font-family: PingFangSC-Medium;
+        font-size: 0.28rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        text-align: center;
+    }
+}

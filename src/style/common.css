@@ -1,0 +1,39 @@
+body {font-family: '微软雅黑', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',  'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'}
+body{
+    padding: constant(safe-area-inset-top) constant(safe-area-inset-right) constant(safe-area-inset-bottom) constant(safe-area-inset-left);
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+.pull-left { float: left; display: block;}
+.pull-right { float: right; display: block;}
+.tableStyle { text-align: center !important; }
+.onelinesub {
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.buttonStyle {
+    color: #0073c9;
+    cursor: pointer;
+}
+.ant-typography ul, .ant-typography ol {
+    margin: 0;
+}
+.ant-typography ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.detailsBox { padding: 10px 36px; }
+.detailsLabel{ width: 120px;   text-align: right; margin-right: 24px; }
+.comLabel{width: 200px;   text-align: right; margin-right: 24px;}
+
+#app{
+    margin-bottom: -0.35rem;
+    /* max-width: 540px; */
+    /* margin: auto; */
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
